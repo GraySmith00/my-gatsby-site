@@ -1,0 +1,30 @@
+.contact-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #1446a0;
+  color: #fff;
+
+  &__wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    display: flex;
+  }
+
+  &__contact {
+    margin-right: 20px;
+  }
+
+  &__socials {
+    display: flex;
+  }
+
+  &__social {
+    margin-right: 20px;
+  }
+}
